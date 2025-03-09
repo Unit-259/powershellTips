@@ -1,0 +1,7 @@
+#code:
+[System.Security.Principal.WindowsPrincipal]::new(
+    [System.Security.Principal.WindowsIdentity]::GetCurrent()
+).IsInRole([System.Security.Principal.WindowsBuiltInRole]::Administrator)
+
+#description:
+Checks if the current PowerShell session is running as an administrator.
