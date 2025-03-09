@@ -1,0 +1,6 @@
+#code:
+Get-NetTCPConnection | Where-Object { $_.State -eq 'Listen' } |
+Select-Object LocalAddress, LocalPort, OwningProcess
+
+#description:
+Lists all open network ports on the system.
