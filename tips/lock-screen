@@ -1,0 +1,5 @@
+#code:
+rundll32.exe user32.dll,LockWorkStation
+
+#description:
+Locks the workstation immediately.
