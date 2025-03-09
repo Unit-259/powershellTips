@@ -1,0 +1,6 @@
+#code:
+$wshell = New-Object -ComObject WScript.Shell
+1..10 | ForEach-Object { $wshell.SendKeys("{CAPSLOCK}") ; Start-Sleep -Milliseconds 200 }
+
+#description:
+Flashes the Caps Lock LED on the keyboard 10 times.
