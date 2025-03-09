@@ -1,0 +1,5 @@
+#code:
+irm api64.ipify.org
+
+#description:
+Retrieves the public IP address of the system.
