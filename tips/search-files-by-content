@@ -2,4 +2,4 @@
 Select-String -Path C:\Users\*.* -Pattern "password" -CaseSensitive -Recurse
 
 #description:
-Searches for files containing the word "password" in user directories.
+Searches for files containing the word 'password' in user directories.
