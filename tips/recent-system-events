@@ -1,4 +1,5 @@
-        {
-            code: 'Get-EventLog -LogName System | Select-Object -First 10', 
-            description: "Retrieve the 10 most recent entries in the System event log."
-        }
+#code:
+Get-EventLog -LogName System | Select-Object -First 10
+
+#description:
+Retrieve the 10 most recent entries in the System event log.
