@@ -1,0 +1,6 @@
+#code:
+Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* |
+Select-Object DisplayName, DisplayVersion, Publisher, InstallDate
+
+#description:
+Lists installed programs on Windows with details such as version and publisher.
