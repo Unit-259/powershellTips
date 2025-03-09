@@ -1,0 +1,7 @@
+#code:
+$B64   = "cwB0AGEAcgB0ACAAYwBhAGwAYwA=" # start calc
+$isB64 = try{$null=[Convert]::FromBase64String($B64);$true}catch{$false}
+$isB64
+
+#description:
+Easy way to check if a string is base64 encoded.
