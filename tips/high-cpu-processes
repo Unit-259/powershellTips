@@ -1,4 +1,4 @@
         {
-            code: `Get-Process | Where-Object {$_.CPU -gt 1000}`, 
+            code: 'Get-Process | Where-Object {$_.CPU -gt 1000}', 
             description: "This tip shows how to find processes consuming more than 1000 CPU units."
         }
