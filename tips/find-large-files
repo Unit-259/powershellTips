@@ -1,0 +1,6 @@
+#code:
+Get-ChildItem -Path C:\ -Recurse -ErrorAction SilentlyContinue |
+Where-Object { $_.Length -gt 1GB } | Select-Object FullName, Length
+
+#description:
+Finds files larger than 1GB anywhere on the system.
