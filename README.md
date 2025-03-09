@@ -88,5 +88,5 @@ Enjoy hacking with PowerShell! 🖥️💀🔥
 ---
 
 ## **🔗 Connect & Support**  
-🐦 Twitter: [@iamjakoby](https://twitter.com/iamjakoby)  
+🐦 Twitter: [@iamjakoby](https://twitter.com/i_am_jakoby)  
 🖥️ Website: [PowerShellForHackers.com](https://powershellforhackers.com)  
