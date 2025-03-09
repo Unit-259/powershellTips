@@ -1,0 +1,5 @@
+#code:
+Get-CimInstance Win32_StartupCommand | Select-Object Name, Command, Location
+
+#description:
+Lists all programs that run at system startup.
