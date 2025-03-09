@@ -81,7 +81,7 @@ This means **no complex formatting issues**, and you can **submit tips easily wi
 ---
 
 ## **👨‍💻 Maintained By**  
-This project is part of **[PowerShellForHackers.com](https://powershellforhackers.com)**, created by **[i am jakoby](https://twitter.com/iamjakoby)**.  
+This project is part of **[PowerShellForHackers.com](https://powershellforhackers.com)**, created by **[i am jakoby](https://twitter.com/i_am_jakoby)**.  
 
 Enjoy hacking with PowerShell! 🖥️💀🔥  
 
