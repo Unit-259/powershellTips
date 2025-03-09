@@ -1,0 +1,5 @@
+#code:
+Get-Process | Sort-Object CPU -Descending | Select-Object -First 10
+
+#description:
+Lists the top 10 processes consuming the most CPU.
