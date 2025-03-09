@@ -1,0 +1,5 @@
+#code:
+Remove-Item -Path $env:TEMP\* -Recurse -Force
+
+#description:
+Deletes all temporary files in the system temp folder.
